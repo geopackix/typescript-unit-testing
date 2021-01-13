@@ -1,0 +1,24 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "description": "typescript unit testing modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register '**/*test.ts'",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "author": "Manuel Hart",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
